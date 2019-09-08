@@ -8,7 +8,6 @@ h1 {
   font-family: 'Arvo', serif;
   font-size: 5rem;
   text-shadow: 3px 0 #DA0463;
-
 }
 
 .w {
@@ -39,7 +38,7 @@ h1 {
   background-image: url("C:/Users/14083/Desktop/drum_kit/assets/images/kick.png");
 }
 
-.set {
+.drum-set {
   margin: 10% auto;
 }
 
