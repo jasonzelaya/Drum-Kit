@@ -2,12 +2,14 @@
 
 // Trigger event listeners on click
 $('.drum').click(function() {
-  // The key pressed
-  var buttonClicked = this.html();
+  // The button clicked
+  var buttonClicked = $(this).html();
 
   // Play a sound for each button
   playSound(buttonClicked);
 
+  // Trigger the fade in/out animation when a button is clicked
+  buttonAnimation(buttonClicked);
 });
 
 
@@ -17,6 +19,8 @@ $(document).keypress(function(evt) {
   // Play a sound for each button
   playSound(evt.key);
 
+  // Trigger the fade in/out animation when a button is clicked
+  buttonAnimation(evt.key);
 });
 
 
