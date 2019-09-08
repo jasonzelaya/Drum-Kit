@@ -9,7 +9,7 @@ $('.drum').click(function() {
   playSound(buttonClicked);
 
   // Trigger the fade in/out animation when a button is clicked
-  buttonAnimation(buttonClicked);
+  btnAnimation(buttonClicked);
 });
 
 
@@ -20,7 +20,7 @@ $(document).keypress(function(evt) {
   playSound(evt.key);
 
   // Trigger the fade in/out animation when a button is clicked
-  buttonAnimation(evt.key);
+  btnAnimation(evt.key);
 });
 
 
@@ -29,7 +29,7 @@ $(document).keypress(function(evt) {
 
 // Play a sound contingent upon the relative button/key event fired
 function playSound(key) {
-
+  // Switch statement
   switch (key) {
     // Play tom-1.mp3 sound if the "w" button event is fired
     case "w":
@@ -77,3 +77,18 @@ function playSound(key) {
     default: console.log(key);
     }
   }
+
+
+// Button fade out/in animation when a button event is fired
+function btnAnimation(btnEvent) {
+  // Assign activeButton a class relative to the button event fired
+  var activeButton = $("." + btnEvent);
+  // Add a "pressed" class to activeButton to trigger the fade out
+  activeButton.addClass("pressed");
+  // Fade in 100 milliseconds after the fade out animation
+  setTimeout(function() {
+    // Remove the "pressed" class
+    activeButton.removeClass("pressed");
+    // Fade in after 100 milliseconds
+  }, 100);
+}
