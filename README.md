@@ -1,6 +1,6 @@
 # Drum Kit
 
-#### Status: Complete
+#### Status: Completed
 
 ### Technologies
 * jQuery
