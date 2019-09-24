@@ -34,7 +34,7 @@ function playSound(key) {
     // Play tom-1.mp3 sound if the "w" button event is fired
     case "w":
       // Assign tom1 the tom-1.mp3 audio file to be played when the "w" button event is fired
-      var tom1 = new Audio('assets/sounds/tom-1.mp3');
+      var tom1 = new Audio('https://jasonzelaya.github.io/Drum-Kit/assets/sounds/tom-1.mp3');
       // Play the tom-1.mp3 audio file
       tom1.play();
       // Stop execution of switch statement if this case's code block was executed
@@ -43,7 +43,7 @@ function playSound(key) {
     // Play tom-2.mp3 sound if the "a" button event is fired
     case "a":
       // Assign tom2 the tom-2.mp3 audio file to be played when the "a" button event is fired
-      var tom2 = new Audio('assets/sounds/tom-2.mp3');
+      var tom2 = new Audio('https://jasonzelaya.github.io/Drum-Kit/assets/sounds/tom-2.mp3');
       // Play the tom-2.mp3 audio file
       tom2.play();
       // Stop execution of switch statement if this case's code block was executed
@@ -52,7 +52,7 @@ function playSound(key) {
     // Play tom-3.mp3 sound if the "s" button event is fired
     case "s":
       // Assign tom3 the tom-3.mp3 audio file to be played when the "s" button event is fired
-      var tom3 = new Audio('assets/sounds/tom-3.mp3');
+      var tom3 = new Audio('https://jasonzelaya.github.io/Drum-Kit/assets/sounds/tom-3.mp3');
       // Play the tom-3.mp3 audio file
       tom3.play();
       // Stop execution of switch statement if this case's code block was executed
@@ -61,7 +61,7 @@ function playSound(key) {
     // Play tom-4.mp3 sound if the "d" button event is fired
     case "d":
       // Assign tom4 the tom-4.mp3 audio file to be played when the "d" button event is fired
-      var tom4 = new Audio('assets/sounds/tom-4.mp3');
+      var tom4 = new Audio('https://jasonzelaya.github.io/Drum-Kit/assets/sounds/tom-4.mp3');
       // Play the tom-4.mp3 audio file
       tom4.play();
       // Stop execution of switch statement if this case's code block was executed
@@ -70,7 +70,7 @@ function playSound(key) {
     // Play snare.mp3 sound if the "j" button event is fired
     case "j":
       // Assign snare the snare.mp3 audio file to be played when the "j" button event is fired
-      var snare = new Audio('assets/sounds/snare.mp3');
+      var snare = new Audio('https://jasonzelaya.github.io/Drum-Kit/assets/sounds/snare.mp3');
       // Play the snare.mp3 audio file
       snare.play();
       // Stop execution of switch statement if this case's code block was executed
@@ -79,7 +79,7 @@ function playSound(key) {
     // Play crash.mp3 sound if the "k" button event is fired
     case "k":
       // Assign crash the crash.mp3 audio file to be played when the "k" button event is fired
-      var crash = new Audio('assets/sounds/crash.mp3');
+      var crash = new Audio('https://jasonzelaya.github.io/Drum-Kit/assets/sounds/crash.mp3');
       // Play the crash.mp3 audio file
       crash.play();
       // Stop execution of switch statement if this case's code block was executed
@@ -88,7 +88,7 @@ function playSound(key) {
     // Play kick-bass.mp3 sound if the "l" button event is fired
     case "l":
       // Assign kick the kick-bass.mp3 audio file to be played when the "l" button event is fired
-      var kick = new Audio('assets/sounds/kick-bass.mp3');
+      var kick = new Audio('https://jasonzelaya.github.io/Drum-Kit/assets/sounds/kick-bass.mp3');
       // Play the kick-bass.mp3 audio file
       kick.play();
       // Stop execution of switch statement if this case's code block was executed
